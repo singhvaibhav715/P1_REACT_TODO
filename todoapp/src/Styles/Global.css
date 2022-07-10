@@ -1,0 +1,75 @@
+body{
+    background-color: #282828;
+}
+
+.card--grid{
+    margin-top: 20px;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+    gap: 20px;
+}
+
+.actions{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    justify-content: center;
+    justify-items: center;
+}
+
+.filter{
+    height: 40px;
+    width: 200px;
+    border:none;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    color:rgb(190, 175, 175);
+    padding: 0 15px;
+    background: linear-gradient(145deg, #2b2b2b, #242424);
+    box-shadow: 13px 13px 26px #1c1c1c, -13px -13px 26px #343434;
+}
+.filter:focus{
+    outline: none;
+}
+
+.input-group{
+    color:rgb(190, 175, 175);
+}
+.input-group .search--bar{
+    border-radius: 14px;
+    border:none;
+    height: 40px;
+    min-width: 200px;
+    max-width: 330px;
+    padding-left: 15px;
+    background: linear-gradient(145deg, #2b2b2b, #242424);
+    box-shadow: 13px 13px 26px #1c1c1c inset, -13px -13px 26px #343434;
+    color:rgb(190, 175, 175);
+}
+
+.input-group .search--bar:focus{
+    outline: none;
+}
+
+.add-new-todo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.add-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(190, 175, 175);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(246, 60, 91);
+
+}

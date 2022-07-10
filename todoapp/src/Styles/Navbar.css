@@ -1,0 +1,42 @@
+.navbar--main{
+    height: 50px;
+    margin: 0;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+}
+.navbar--logo{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 10px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar--options{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.6s all;
+}
+.navbar--options ul{
+    list-style: none;
+}
+
+.navbar--options ul li{
+    display: inline-block;
+    color:white;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar--options ul li:hover{
+    color:rgb(246, 60, 91);
+    transition: 0.6s all;
+}
